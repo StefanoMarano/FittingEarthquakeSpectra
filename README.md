@@ -17,9 +17,9 @@ In this work, we propose a method to overcome these two limitations. We show tha
 
 ## Executing the code
 
- * From commandline, run `python3 DEMO_CompleteData.py` to fit a complete seismogram. By default, output is saved in the folder `./CompleteDataOutput/`
- * From commandline, run `python3 DEMO_IncompleteData.py` to fit an incomplete seismogram. By default, output is saved in the folder `./IncompleteDataOutput/`  
- * Input file and other options can be changed within the code.
+ * From command-line, run `python DEMO_CompleteData.py` to fit a complete seismogram. By default, output is saved in the folder `./CompleteDataOutput/`
+ * From command-line, run `python DEMO_IncompleteData.py` to fit an incomplete seismogram. By default, output is saved in the folder `./IncompleteDataOutput/`  
+ * The input seismogram and other options can be changed within the code.
  * If you do not have Latex installed, set `USETEX=False` in the code. Latex is used for generating nicer picture labels.
  
 ## BibTex Entry
