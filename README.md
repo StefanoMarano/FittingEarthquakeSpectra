@@ -1,6 +1,7 @@
+## Fitting Earthquake Spectra: Colored Noise and Incomplete Data
+
 This repository stores the code used in the publication 
 [Fitting Earthquake Spectra: Colored Noise and Incomplete Data](https://doi.org/10.1785/0120160030) published on the Bulletin of the Seismological Society of America. [How to cite us](#bibtex-entry).
-
 
 ## Abstract
 
