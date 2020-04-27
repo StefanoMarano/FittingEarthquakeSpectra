@@ -4,6 +4,7 @@ This repository stores the code used in the publication
 [Fitting Earthquake Spectra: Colored Noise and Incomplete Data](https://doi.org/10.1785/0120160030) published on the Bulletin of the Seismological Society of America. [How to cite us](#bibtex-entry).
 
  * [Abstract](#abstract)
+ * [Example: Low SNR seismograms](#example-low-snr-seismograms)
  * [Example: Complete data](#example-complete-data)
  * [Example: Incomplete data](#example-incomplete-data)
  * [Executing the code](#executing-the-code)
@@ -20,6 +21,21 @@ When analyzing an earthquake recording, it is well known that the noise level is
 Seismograms with gaps are usually discarded due to the lack of methodologies to use them. Modern digital seismograms are occasionally clipped at the arrival of the strongest ground motion. This is also critical in the study of historical earthquakes in which few seismograms are available and gaps are common, significantly decreasing the number of useful records.
 
 In this work, we propose a method to overcome these two limitations. We show that the spectral fitting can be greatly improved and earthquakes with extremely low signal‐to‐noise ratio can be fitted. We show that the impact of gaps on the estimated parameters is minor when a small fraction of the total energy is missing. We also present a strategy to reconstruct the missing portion of the seismogram.
+
+## Example: Low SNR seismograms
+
+In our work we show how to reliably fit earthquake spectra and estimate Brune model parameters even in very low signal-to-noise ratio (SNR). In the figures below:
+ * Station FUSIO HG, distance from epicenter 86&nbsp;km, SNR 15&nbsp;dB
+ * Station STSP HG, distance 211&nbsp;km, SNR −4&nbsp;dB
+ 
+See the [manuscript](https://doi.org/10.1785/0120160030) for more details on the figures.
+
+![FUSIO HG][FUSIO]
+
+![STSP HG][STSP]
+
+[FUSIO]: img/FUSIO.png "Accelerometric recording from FUSIO station"
+[STSP]: img/STSP.png "Accelerometric recording from STSP station"
 
 ## Example: Complete data
 
